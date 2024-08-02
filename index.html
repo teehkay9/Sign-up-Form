@@ -20,7 +20,52 @@
           </div>
         </div>
         <div class="content">
-          <!-- Form content goes here -->
+          <header>
+            <p>
+              This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br />
+              Sign up now to get started <br />
+              <br />
+              You know you want to!
+            </p>
+          </header>
+          <main class="main">
+            <h1>Let's do this!</h1>
+            <form action="https://httpbin.org/post" method="post">
+              <fieldset>
+                <div class="form-group" required>
+                  <label for="first_name">FIRST NAME</label>
+                  <input type="text" id="first_name" name="first_name" required />
+                </div>
+                <div class="form-group">
+                  <label for="last_name">LAST NAME</label>
+                  <input type="text" id="last_name" name="last_name" required />
+                </div>
+              </fieldset>
+              <fieldset>
+                <div class="form-group">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone_number">PHONE NUMBER</label>
+                  <input type="tel" id="phone_number" name="phone_number" required />
+                </div>
+              </fieldset>
+              <fieldset>
+                <div class="form-group">
+                  <label for="password">PASSWORD</label>
+                  <input type="password" id="password" name="password" required />
+                </div>
+                <div class="form-group">
+                  <label for="confirm_pw">CONFIRM PASSWORD</label>
+                  <input type="password" id="confirm_pw" name="confirm_pw" required />
+                </div>
+              </fieldset>
+              <button type="submit">Create Account</button>
+              <p>Already have an account? <a href="index.html" class="login">Log in</a></p>
+            </form>
+          </main>
+          <footer></footer>
         </div>
       </div>
     </div>
